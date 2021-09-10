@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Challenge</title>
+</head>
+<body id="home">
+    <header class="header">
+      <div class="containerHeader">
+        <div class="logo">
+          <a href="#home"><img src="./img/depositphotos_36879315-stock-illustration-joystick-icon-removebg-preview.png" alt=""></a>
+        </div>
+        <h1 class="animation">Bienvindo a la tienda Code Society</h1>
+        <div class="car">
+          <i class="fas fa-shopping-cart"></i>
+          <div class="num"><span>100</span></div>
+        </div>
+      </div>
+    </header>
+    <section class="container">
+        <div class="slideshow">
+
+        </div>
+    </section>
+   <section>
+     <div class="box">
+       <form>
+         <input type="text" placeholder="Search...">
+         <input type="submit" value="search">
+       </form>
+     </div>
+   </section>
+
+    <script src="js/carrosel.js"></script>
+    <script>
+        const carrousel = new Carrousel({
+          el: ".slideshow",
+          imgs: [
+            "https://images.unsplash.com/photo-1603481546579-65d935ba9cdd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+            "https://images.unsplash.com/photo-1608511271453-7b293dc27bce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
+            "https://images.unsplash.com/photo-1603481588273-2f908a9a7a1b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+            "https://images.unsplash.com/photo-1616440347437-b1c73416efc2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+            "https://images.unsplash.com/photo-1598550476439-6847785fcea6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2V0dXAlMjBnYW1lcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+          ]
+        })
+      </script>
+      <script src="./js/animation.js"></script>
+</body>
+</html>

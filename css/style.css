@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  height: 120px;
+  background-color: #021442;
+  z-index: 100;
+  position: sticky;
+  top: 0px;
+}
+
+.containerHeader {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.containerHeader .logo img {
+  width: 120px;
+}
+
+.car i {
+  height: auto;
+  font-size: 18px;
+  color: #fff;
+}
+
+.car {
+  width: 120px;
+  padding: 10px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.car .num span {
+  color: #fff;
+  font-size: 18px;
+}
+
+.car .num {
+  border: 1px solid #fff;
+  padding: 5px 10px 5px 10px;
+}
+
+.header h1 {
+  width: 582px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.carrouselContainer {
+  display: flex;
+}
+
+.carrouselContainer img {
+  position: relative !important;
+  margin: auto;
+  left: 0 !important;
+  height: 300px !important;
+  width: 100% !important;
+}
+
+#left {
+  z-index: 1;
+}
+
+::-webkit-scrollbar{
+  width: 8px
+}
+::-webkit-scrollbar-track {
+  background: #ddd;
+}
+::-webkit-scrollbar-thumb {
+  background: #023E73;
+  border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 30px auto;
+}
+
+.box input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.box input[type="text"] {
+    background: #04ADBF;
+    color: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 5px 0 0 5px;
+}
+
+.box input::placeholder {
+    color: #fff;
+}
+
+.box input[type="submit"] {
+    position: relative;
+    left: -6px;
+    border-radius: 0 5px 5px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background: #023E73;
+}
