@@ -7,9 +7,24 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body {
+  background: #000;
+  color: #fff
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 .header {
-  height: 120px;
-  background-color: #021442;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  background-color: #000;
   z-index: 100;
   position: sticky;
   top: 0px;
@@ -17,14 +32,14 @@
 
 .containerHeader {
   display: flex;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
 .containerHeader .logo img {
-  width: 120px;
+  width: 35px;
 }
 
 .car i {
@@ -36,20 +51,19 @@
 .car {
   width: 120px;
   padding: 10px;
-  border: 1px solid #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .car .num span {
-  color: #fff;
+  color: rgba(3, 214, 3, 0.966);
   font-size: 18px;
 }
 
 .car .num {
-  border: 1px solid #fff;
   padding: 5px 10px 5px 10px;
+  cursor: pointer;
 }
 
 .header h1 {
@@ -74,55 +88,107 @@
   z-index: 1;
 }
 
-::-webkit-scrollbar{
-  width: 8px
+::-webkit-scrollbar {
+  width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #ddd;
+  background: #101010;
 }
 ::-webkit-scrollbar-thumb {
-  background: #023E73;
+  background: #20c921;
   border-radius: 10px;
 }
 
 .box {
-    display: flex;
-    justify-content: center;
-    width: 500px;
-    margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin: 50px auto;
 }
 
 .box input {
-    position: relative;
-    display: inline-block;
-    font-size: 20px;
-    transition: .5s;
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  transition: 0.5s;
 }
 
 .box input[type="text"] {
-    background: #04ADBF;
-    color: #fff;
-    width: 340px;
-    height: 50px;
-    border: none;
-    outline: none;
-    padding: 0 25px;
-    border-radius: 5px 0 0 5px;
+  background: #080808;
+  color: #fff;
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 5px 0 0 5px;
 }
 
 .box input::placeholder {
-    color: #fff;
+  color: #fff;
 }
 
 .box input[type="submit"] {
-    position: relative;
-    left: -6px;
-    border-radius: 0 5px 5px 0;
-    width: 150px;
-    height: 50px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    color: #fff;
-    background: #023E73;
+  position: relative;
+  left: -6px;
+  border-radius: 0 5px 5px 0;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  background: rgba(2, 175, 2, 0.904)
+}
+
+.containerCard {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #080808;
+  width: 300px;
+  height: 480px;
+  border-radius: 15px;
+}
+
+.textCard {
+  text-align: center;
+}
+.textCard h1 {
+  margin-bottom: 10px;
+}
+
+.textCard p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.preco {
+  text-align: center;
+  color: #006633;
+}
+
+.stars {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #F2E638;
+}
+
+.containerCard .card a {
+  display: flex;
+  width: 100%;
+  background: #006633;
+  justify-content: center;
+  padding: 10px;
+  color: #fff;
+}
+
+.card .image img {
+  width: 300px;
 }
