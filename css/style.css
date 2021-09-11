@@ -99,6 +99,48 @@ ul {
   border-radius: 10px;
 }
 
+.modal-container {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;  
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: opacity 0.3s ease;
+}
+
+.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal {
+  z-index: 10000;
+  background-color: rgba(26, 25, 25, 0.911);
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.modal h1 {
+  margin: 0;
+}
+
+.modal p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+
+
 .box {
   display: flex;
   justify-content: center;
@@ -106,11 +148,22 @@ ul {
   margin: 50px auto;
 }
 
+
+
 .box input {
   position: relative;
   display: inline-block;
   font-size: 20px;
   transition: 0.5s;
+}
+
+.box input::placeholder{
+  color: #ffffff !important;
+ 
+}
+
+.box input:hover{
+  border-color: #20c921;
 }
 
 .box input[type="text"] {
@@ -192,4 +245,10 @@ ul {
 
 .card .image img {
   width: 300px;
+}
+
+.containerFooter{
+  margin-top: 50px;
+  background-color:rgba(22, 22, 22, 0.884);
+  height: 200px;
 }
