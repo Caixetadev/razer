@@ -96,12 +96,12 @@ class Carrousel{
 			${imagensCarrousel}
 			<div 
 			id="left"
-			style="position: absolute; top: 250px; left: 0px; color: #fff; margin-left: 5vw; font-size: 23px; cursor: pointer;padding: 20px">
+			style="position: absolute; top: 220px; left: 0px; color: #fff; margin-left: 5vw; font-size: 23px; cursor: pointer;padding: 20px">
 				<i class="fas fa-chevron-left"></i>
 			</div>
 			<div 
 			id="right"
-			style="position: absolute; top: 250px; right: 0px; color: #fff; margin-right: 5vw; font-size: 23px; cursor: pointer; float: right; padding: 20px">
+			style="position: absolute; top: 220px; right: 0px; color: #fff; margin-right: 5vw; font-size: 23px; cursor: pointer; float: right; padding: 20px">
 				<i class="fas fa-chevron-right"></i>
 			</div>
 			</div>

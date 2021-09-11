@@ -24,7 +24,7 @@ ul {
   display: flex;
   align-items: center;
   height: 100px;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.966);
   z-index: 100;
   position: sticky;
   top: 0px;
@@ -102,7 +102,7 @@ ul {
 .box {
   display: flex;
   justify-content: center;
-  width: 500px;
+  width: 100%;
   margin: 50px auto;
 }
 
@@ -143,6 +143,7 @@ ul {
 
 .containerCard {
   display: flex;
+  justify-content: center;
   width: 80%;
   margin: 0 auto;
   gap: 50px;
