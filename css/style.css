@@ -24,7 +24,8 @@ ul {
   display: flex;
   align-items: center;
   height: 100px;
-  background-color: rgba(0, 0, 0, 0.966);
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
   z-index: 100;
   position: sticky;
   top: 0px;
