@@ -1,7 +1,7 @@
 const produtos = [
   {
     name: 'Gabinete',
-    img: 'http://127.0.0.1:5500/img/gabinete.png',
+    img: './img/gabinete.png',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
     preco: 'R$ 1.863,53',
     stars: 5,
@@ -9,7 +9,7 @@ const produtos = [
   },
   {
     name: 'Cadeira',
-    img: 'http://127.0.0.1:5500/img/cadeira.png',
+    img: './img/cadeira.png',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
     preco: 'R$ 2.272,61',
     stars: 5,
@@ -17,7 +17,7 @@ const produtos = [
   },
   {
     name: 'Mouse',
-    img: 'http://127.0.0.1:5500/img/mouse.png',
+    img: './img/mouse.png',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
     preco: 'R$ 772,61',
     stars: 5,
@@ -25,7 +25,7 @@ const produtos = [
   },
   {
     name: 'Teclado Mecânico',
-    img: 'http://127.0.0.1:5500/img/teclado.png',
+    img: './img/teclado.png',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
     preco: 'R$ 2.044,89',
     stars: 5,
@@ -33,7 +33,7 @@ const produtos = [
   },
   {
     name: 'Headset Kraken Kitty',
-    img: 'http://127.0.0.1:5500/img/headset.png',
+    img: './img/headset.png',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
     preco: 'R$ 2.044,89',
     stars: 5,
@@ -41,7 +41,7 @@ const produtos = [
   },
   {
     name: 'Razer Intel I9',
-    img: 'http://127.0.0.1:5500/img/computador.png',
+    img: './img/computador.png',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
     preco: 'R$ 2.044,89',
     stars: 5,
