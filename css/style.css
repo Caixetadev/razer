@@ -161,12 +161,22 @@ ul {
   float: right;
   color: #fff;
   padding: 15px 30px;
+  margin-right: 20px;
   background: #006633;
   transition: .3s ease-in-out;
 }
 
 .modal a:hover {
   background: #00994D;
+}
+
+.modal .carrinho a {
+  background:#1E90FF;
+  color: #fff;
+}
+
+.modal .carrinho a:hover {
+  background:	#00BFFF;
 }
 
 #modal .purchase {

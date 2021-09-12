@@ -35,7 +35,7 @@ const produtos = [
     name: 'Headset Kraken Kitty',
     img: './img/headset.png',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-    preco: 'R$ 2.044,89',
+    preco: 'R$ 1.223,90',
     stars: 5,
     id: 4
   },
@@ -43,7 +43,7 @@ const produtos = [
     name: 'Razer Intel I9',
     img: './img/computador.png',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing.',
-    preco: 'R$ 2.044,89',
+    preco: 'R$ 16.999,00',
     stars: 5,
     id: 5
   }
