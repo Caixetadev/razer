@@ -1,4 +1,8 @@
-produtos.forEach((item) => {
+produtos.forEach((item, index) => {
+  let stars = ``
+  for(let i = 0; i < item.stars; i++){
+    stars += `<i class="fas fa-star"></i>`
+  }
   document.querySelector('.containerCard').innerHTML += `
   
   <div class="card">
@@ -13,14 +17,10 @@ produtos.forEach((item) => {
     <p><b>${item.preco}</b></p>
   </div>
   <div class="stars">
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
-    <i class="fas fa-star"></i>
+    ${stars}
   </div>
-  <a href="#" id="open" class="btn">Comprar</a>
+  <a href="#" id="open" data-id="${index}" class="btn">Comprar</a>
 </div>
-
   `
+  
 })

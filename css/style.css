@@ -101,12 +101,12 @@ ul {
 
 .modal-container {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.3);
+  /* background-color: rgba(0, 0, 0, 0.3); */
   align-items: center;
   justify-content: center;
   position: fixed;
   pointer-events: none;
-  opacity: 0;  
+  /* opacity: 1;   */
   top: 0;
   left: 0;
   height: 100vh;
@@ -114,29 +114,50 @@ ul {
   transition: opacity 0.3s ease;
 }
 
-.show {
+#show {
   pointer-events: auto;
   opacity: 1;
 }
 
 .modal {
-  z-index: 10000;
+  z-index: 20000;
   background-color: rgba(26, 25, 25, 0.911);
-  width: 600px;
+  width: 700px;
   max-width: 100%;
-  padding: 30px 50px;
+  padding: 20px 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  text-align: center;
 }
 
 .modal h1 {
   margin: 0;
+  text-align: center;
+}
+
+.modal img {
+  width: 200px;
+  float: left;
+}
+
+.content {
+  display: inline-block;
+  width: 100%;
+}
+
+.modal h2 {
+  margin-top: 20px;
+}
+
+.modal .fa-times {
+  float: right;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 .modal p {
   opacity: 0.7;
   font-size: 14px;
+  margin-top: 20px;
 }
 
 
@@ -151,8 +172,7 @@ ul {
 
 
 .box input {
-  position: relative;
-  display: inline-block;
+
   font-size: 20px;
   transition: 0.5s;
 }
@@ -182,7 +202,6 @@ ul {
 }
 
 .box input[type="submit"] {
-  position: relative;
   left: -6px;
   border-radius: 0 5px 5px 0;
   width: 150px;
