@@ -84,10 +84,6 @@ ul {
   width: 100% !important;
 }
 
-#left {
-  z-index: 1;
-}
-
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -177,13 +173,13 @@ ul {
   height: 100%;
   animation: bg 3s ease;
   animation-fill-mode: forwards;
-  background: rgba(0, 0, 0, 0.356);
+  background: rgba(0, 0, 0, 0.76);
 }
 
 .purchase .modalImg{
   width: 100px;
   position: absolute;
-  top: 47%;
+  top: 40%;
   left: 47%;
   animation: compra 3s ease;
   animation-fill-mode: forwards;
