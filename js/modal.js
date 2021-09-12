@@ -15,6 +15,7 @@ open.forEach((btn) => {
         <p>${desc}</p>
         <h2>${preco}</h2>
         </div>
+        <a href="#">Comprar</a>
       </div>`
       const close = document.getElementById('close');
       close.addEventListener('click', () => {

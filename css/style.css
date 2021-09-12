@@ -57,7 +57,7 @@ ul {
 }
 
 .car .num span {
-  color: rgba(3, 214, 3, 0.966);
+  color: #fff;
   font-size: 18px;
 }
 
@@ -95,7 +95,7 @@ ul {
   background: #101010;
 }
 ::-webkit-scrollbar-thumb {
-  background: #20c921;
+  background: #006633;
   border-radius: 10px;
 }
 
@@ -160,6 +160,18 @@ ul {
   margin-top: 20px;
 }
 
+.modal a {
+  float: right;
+  color: #fff;
+  padding: 15px 30px;
+  background: #006633;
+  transition: .3s ease-in-out;
+}
+
+.modal a:hover {
+  background: #00994D;
+}
+
 
 
 .box {
@@ -210,7 +222,7 @@ ul {
   outline: none;
   cursor: pointer;
   color: #fff;
-  background: rgba(2, 175, 2, 0.904)
+  background: #006633;
 }
 
 .containerCard {
@@ -260,6 +272,11 @@ ul {
   justify-content: center;
   padding: 10px;
   color: #fff;
+  transition: .3s ease-in-out;
+}
+
+.containerCard .card a:hover {
+  background: #00994D;
 }
 
 .card .image img {
@@ -268,6 +285,12 @@ ul {
 
 .containerFooter{
   margin-top: 50px;
-  background-color:rgba(22, 22, 22, 0.884);
-  height: 200px;
+  background-color:#080808
+}
+
+.containerFooter p {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
 }
