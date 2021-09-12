@@ -172,6 +172,59 @@ ul {
   background: #00994D;
 }
 
+#modal .purchase {
+  width: 100%;
+  height: 100%;
+  animation: bg 3s ease;
+  animation-fill-mode: forwards;
+  background: rgba(0, 0, 0, 0.356);
+}
+
+.purchase .modalImg{
+  width: 100px;
+  position: absolute;
+  top: 47%;
+  left: 47%;
+  animation: compra 3s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes compra {
+  0% {
+    opacity: 1;
+	}
+
+  70% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+    transform: rotate(800grad);
+  }
+	100% {
+		opacity: 0;
+    transform: rotate(800grad);
+	}
+}
+
+@keyframes bg {
+  0% {
+    opacity: 1;
+	}
+
+  70% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+	100% {
+		opacity: 0;
+	}
+}
+
 
 
 .box {

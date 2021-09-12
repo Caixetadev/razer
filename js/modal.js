@@ -15,12 +15,21 @@ open.forEach((btn) => {
         <p>${desc}</p>
         <h2>${preco}</h2>
         </div>
-        <a href="#">Comprar</a>
+        <a id="animation" href="#">Comprar</a>
       </div>`
       const close = document.getElementById('close');
       close.addEventListener('click', () => {
         document.querySelector('#modal').innerHTML = ` `
       });
+      const anima = document.getElementById('animation')
+      anima.addEventListener('click', (event) => {
+        event.preventDefault()
+        document.querySelector('#modal').innerHTML = `
+        <div class="purchase">
+        <img src="./img/compra.png" class="modalImg">
+        </div>
+        `
+      })
   })
   
 })
