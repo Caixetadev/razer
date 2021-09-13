@@ -354,3 +354,13 @@ ul {
   justify-content: center;
   font-size: 14px;
 }
+
+@media (max-width: 600px) {
+  .box input[type="text"] {
+    width: 200px;
+  }
+  .box input[type="submit"] {
+    width: 100px;
+    margin-left: -11px;
+  }
+}
