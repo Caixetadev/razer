@@ -37,13 +37,105 @@ const modal = () => {
         })
 
         const carrinho = document.querySelector('#carrinho')
-          carrinho.addEventListener('click', (event) => {
-            event.preventDefault()
-            document.querySelector('#modal').innerHTML = ` `
+        carrinho.addEventListener('click', (event) => {
+          event.preventDefault()
+          document.querySelector('#modalcar').innerHTML = `
+          <section class="modalcar-container" id="show">
+          <h2>Carrinho de compras</h2>
+          <div class="table-container">
+            <table>
+              <tr>
+                <th>Producto</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+                <th>IconDelete</th>
+              </tr>
+              <tr>
+                <th>example</th>
+                <th>example</th>
+                <th>example</th>
+                <th>example</th>
+                <th>example</th>
+                <th>example</th>
+      
+              </tr>
+             
+            </table>
+      
+            <div class="buttons-container">
+              <button id="close2" type="button">Volver</button>
+              <button class="btn2">Comprar</button>
+              <h5 class="total">Total: $</h5>
+            </div>
+          
+      
+          </div>
+          </section>
+           `
+          
+           const close2 = document.getElementById('close2');
+           close2.addEventListener('click', () => {
+             document.querySelector('#modalcar').innerHTML = ` `
+           });
+          //  const close = document.getElementById('close');
+          //  close.addEventListener('click', () => {
+          //    document.querySelector('#modalcar').innerHTML = ` `
+          //  });
+          
+        })
 
-            
-          })
-    })
-    
+        const opencar = document.querySelector('#opencar')
+        opencar.addEventListener('click', (event) => {
+          event.preventDefault()
+          document.querySelector('#modalcar').innerHTML = `
+          <section class="modalcar-container" id="show">
+          <h2>Carrinho de compras</h2>
+          <div class="table-container">
+            <table>
+              <tr>
+                <th>Producto</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+                <th>IconDelete</th>
+              </tr>
+              <tr>
+                <th>example</th>
+                <th>example</th>
+                <th>example</th>
+                <th>example</th>
+                <th>example</th>
+                <th>example</th>
+      
+              </tr>
+             
+            </table>
+      
+            <div class="buttons-container">
+              <button id="close2" type="button">Volver</button>
+              <button class="btn2">Comprar</button>
+              <h5 class="total">Total: $</h5>
+            </div>
+          
+      
+          </div>
+          </section>
+           `
+          
+           const close2 = document.getElementById('close2');
+           close2.addEventListener('click', () => {
+             document.querySelector('#modalcar').innerHTML = ` `
+           });
+          //  const close = document.getElementById('close');
+          //  close.addEventListener('click', () => {
+          //    document.querySelector('#modalcar').innerHTML = ` `
+          //  });
+          
+        })
+  })
+  
   })
 }
